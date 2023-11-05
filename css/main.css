@@ -792,3 +792,45 @@ header .right {
 .contact .left {
     height: 50vh;
 } */
+@media screen and (max-width: 767px) {
+    nav .nav-item {
+        flex-direction: row;
+    }
+
+    .nav-item {
+        flex-direction: column;
+    }
+
+    .user-profile {
+        top: 7px;
+        left: -21px;
+    }
+
+    .left {
+        width: 30%;
+    }
+
+    .right {
+        width: 70%;
+    }
+
+    .section-name {
+        font-size: clamp(1rem, 2.5vw, 4rem);
+    }
+
+    .nav-item.sidbar {
+        left: 12px;
+    }
+
+    .nav-item.sidbar .red {
+        font-size: var(--font-size--large);
+    }
+
+    .nav-item.sidbar {
+        left: 4px;
+    }
+
+    .nav-item.sidbar li {
+        font-size: var(--font-size--small) !important;
+    }
+}
