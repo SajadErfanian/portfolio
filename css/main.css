@@ -130,27 +130,27 @@ a {
 }
 
 .fs-16 {
-    font-size: var(--font-size--medium);
+    font-size: var(--font-size--medium) !important;
     line-height: var(--space-24);
 }
 
 .fs-18 {
-    font-size: var(--font-size--large);
+    font-size: var(--font-size--large) !important;
     line-height: var(--space-32);
 }
 
 .fs-22 {
-    font-size: var(--font-size--22);
+    font-size: var(--font-size--22) !important;
     line-height: var(--space-40);
 }
 
 .fs-24 {
-    font-size: var(--font-size--xlarge);
+    font-size: var(--font-size--xlarge) !important;
     line-height: var(--space-40);
 }
 
 .fs-32 {
-    font-size: clamp(24px, 2.5vw, 32px);
+    font-size: clamp(24px, 2.5vw, 32px) !important;
     line-height: var(--space-40);
 }
 
@@ -288,7 +288,7 @@ strong {
     width: 148px;
     height: 130px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    background-image: url('/1589094162598.jpg');
+    background-image: url('../1589094162598.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -787,3 +787,8 @@ header .right {
 .add-animate.add .h3 {
     opacity: 0;
 }
+
+/* .contact .right,
+.contact .left {
+    height: 50vh;
+} */
