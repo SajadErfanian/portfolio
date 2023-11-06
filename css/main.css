@@ -552,7 +552,7 @@ main .right figcaption {
     height: 74px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     background-color: #29292999;
-    top: 51%;
+    top: 53%;
     z-index: 999;
     cursor: pointer;
     display: flex;
