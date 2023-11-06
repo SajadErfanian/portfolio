@@ -908,3 +908,9 @@ h1 {
 .nav-item.sidbar {
     transition: all 0.3s;
 }
+
+@media screen and (min-width: 768px) {
+    .nav-item.sidbar {
+        opacity: 1 !important;
+    }
+}
