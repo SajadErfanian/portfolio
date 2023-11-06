@@ -551,7 +551,7 @@ main .right figcaption {
     height: 74px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     background-color: #29292999;
-    top: 55%;
+    top: 51%;
     z-index: 999;
     cursor: pointer;
     display: flex;
@@ -728,6 +728,7 @@ figcaption {
 .img-container-fig {
     width: 100%;
     column-count: 3;
+    padding-top: 32px;
 }
 
 .img-container-fig li {
@@ -770,12 +771,14 @@ header .right {
 
 .h3 {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 32px;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
     z-index: 9;
+    display: flex;
+    flex-direction: column;
 }
 
 .add-animate.add .cover {
@@ -874,4 +877,12 @@ h1 {
 .front-contain {
     display: flex;
     align-items: center;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.fw-5 {
+    font-weight: 500;
 }
