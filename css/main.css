@@ -487,6 +487,7 @@ ul.submenu li a {
 .nav-item.sidbar li {
     font-weight: 500;
     padding: 8px;
+    padding-right: 0;
     padding-left: 0;
     width: 100%;
 }
@@ -670,6 +671,10 @@ figcaption {
 
 
 @media screen and (max-width: 768px) {
+    .nav-item.sidbar li a {
+        font-size: var(--font-size--medium) !important;
+    }
+
     .left {
         width: 30%;
     }
@@ -684,6 +689,19 @@ figcaption {
 
     .user-profile {
         transform: rotate(-30deg) scale(0.5) !important;
+    }
+
+    .close {
+
+        width: 42px;
+        height: 34px;
+
+        right: -21px;
+
+    }
+
+    main .section-name {
+        top: 5%;
     }
 }
 
@@ -828,7 +846,7 @@ header .right {
     }
 
     .nav-item.sidbar {
-        left: 4px;
+        left: 13px;
     }
 
     .nav-item.sidbar li {
@@ -885,4 +903,8 @@ h1 {
 
 .fw-5 {
     font-weight: 500;
+}
+
+.nav-item.sidbar {
+    transition: all 0.3s;
 }
