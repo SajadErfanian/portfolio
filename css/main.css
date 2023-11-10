@@ -469,7 +469,7 @@ p {
 
 .Container--main {
     height: 800px;
-    /* background: url(/images/home/) no-repeat right center; */
+    /* background: url(./images/home/) no-repeat right center; */
     background-size: cover;
 }
 
@@ -539,40 +539,40 @@ p {
 
 #radical,
 .radical {
-    /* background: url(/images/home/rughomepage.png) no-repeat center center; */
+    /* background: url(./images/home/rughomepage.png) no-repeat center center; */
     background-size: cover;
     padding-bottom: 71.01%;
 }
 
 #babylon,
 .babylon {
-    background: url(/images/home/pfm.png) no-repeat center center;
+    background: url(./images/home/pfm.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 97.58%;
 }
 
 #dan,
 .dan {
-    background: url(/images/home/dss.png) no-repeat center center;
+    background: url(./images/home/dss.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 105.21%;
 }
 
 #cullop,
 .cullop {
-    background: url(/images/home/dailyui-5-resize.png) no-repeat left center;
+    background: url(./images/home/dailyui-5-resize.png) no-repeat left center;
     background-size: cover;
     padding-bottom: 70.7%;
 }
 
 #uni {
-    background: url(/images/home/uniwellness-1.png) no-repeat center center;
+    background: url(./images/home/uniwellness-1.png) no-repeat center center;
     background-size: 700px;
     padding-bottom: 60.6%;
 }
 
 #recharge {
-    background: url(/images/home/babylon-1-resize.jpeg) no-repeat center center;
+    background: url(./images/home/babylon-1-resize.jpeg) no-repeat center center;
     background-size: cover;
     padding-bottom: 95.21%;
 }
