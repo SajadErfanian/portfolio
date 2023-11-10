@@ -81,7 +81,7 @@ h5,
 h6,
 p {
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 ul {
@@ -140,7 +140,7 @@ p {
     animation-iteration-count: infinite;
     -webkit-animation-delay: 0.75s;
     animation-delay: 0.75s;
-    color: #888 !important;
+    color: #585858 !important;
 }
 
 @-webkit-keyframes loader {
@@ -177,6 +177,18 @@ p {
     }
 }
 
+.u-width40.u-marginAuto {
+    margin: 0;
+    width: 40%;
+    padding-right: 40px;
+}
+
+.skills-w .Container-flex.u-justify-start {
+    max-width: 380px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
 .fullscreen-bg {
     position: fixed;
     top: -250px;
@@ -209,6 +221,10 @@ p {
     }
 }
 
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
 .Container--Menu {
     width: 90%;
     margin: 0 auto;
@@ -237,6 +253,11 @@ p {
 #Menu-portfolio,
 #Menu-resume {
     padding-right: 50px;
+    font-weight: 600;
+}
+
+nav .Menu-item a {
+    font-weight: 600;
 }
 
 /* .Menu-item:hover {
@@ -544,6 +565,18 @@ p {
     padding-bottom: 71.01%;
 }
 
+ul {
+    padding: 0;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 #babylon,
 .babylon {
     background: url(../images/home/pfm.png) no-repeat center center;
@@ -821,6 +854,10 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+    .u-width70 {
+        width: 100%;
+    }
+
     .Container-infoBlock p {
         font-size: 18px;
     }
@@ -830,7 +867,7 @@ p {
     }
 
     #about img {
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
 }
 
@@ -945,9 +982,42 @@ p {
     }
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
+.wb {
+    word-break: break-word;
+}
+
+.wfc {
+    width: fit-content;
+}
+
 @media screen and (max-width: 769px) {
+
+    /* .Container--about h2,
+    .Container--contact h2,
+    .Container--writing h2 {
+        font-size: 20px !important;
+    } */
+
+    .u-width40.u-marginAuto {
+        padding-right: 0;
+    }
+
+    .About .u-p-MW1 {
+        max-width: 100%;
+    }
+
+    .About .u-width55,
+    .About .u-p-MW1 {
+        width: 100%;
+    }
+
     .Container--Menu {
-        width: 90%;
+        width: 100%;
+        padding-inline: 12px;
     }
 
     .Menu {
@@ -1321,7 +1391,7 @@ p {
     }
 
     #about-flex_1 .u-width40 {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1354,6 +1424,12 @@ p {
 }
 
 @media screen and (max-width: 490px) {
+
+    /* .Container--about h2,
+    .Container--contact h2,
+    .Container--writing h2 {
+        font-size: 18px !important;
+    } */
 
     .Menu-item:nth-of-type(1),
     .Menu-item:nth-of-type(4) {
@@ -1492,9 +1568,42 @@ p {
     #skills .Container-flex h5 {
         font-size: 14px;
     }
+
+
 }
 
 .op04:hover {
     opacity: 0.4 !important;
     cursor: default !important;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.About .Container-wrapper {
+    padding-inline: 12px;
+    width: 100%;
+    ;
+}
+
+.color-g {
+    color: #585858;
+}
+
+::-webkit-scrollbar {
+    width: 8px
+}
+
+::-webkit-scrollbar-track {
+    background: #585858;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #161616;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1f1f1f
 }
