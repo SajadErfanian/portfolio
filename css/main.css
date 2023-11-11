@@ -140,7 +140,7 @@ p {
     animation-iteration-count: infinite;
     -webkit-animation-delay: 0.75s;
     animation-delay: 0.75s;
-    color: #585858 !important;
+    color: #888 !important;
 }
 
 @-webkit-keyframes loader {
