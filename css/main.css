@@ -489,9 +489,9 @@ nav .Menu-item a {
 }
 
 .Container--main {
-    height: 800px;
-    /* background: url(../images/home/) no-repeat right center; */
-    background-size: cover;
+    height: 450px;
+    /* background: url(../images/home/sajad-7.jpg) no-repeat right center; */
+    background-size: auto;
 }
 
 .Container--project {
