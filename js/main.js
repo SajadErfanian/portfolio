@@ -42,11 +42,11 @@ function scrollToPortfolio() {
                         $(".Home").length
                             ? (a >= $("#portfolio").offset().top - 175 && ($(".Menu--js").css("visibility", "visible"), $(".Menu--js").css("opacity", "1"), $(".Menu--main").css("visibility", "hidden"), $(".Menu--main").css("opacity", "0")),
                                 a < $("#portfolio").offset().top - 175 && ($(".Menu--js").css("visibility", "hidden"), $(".Menu--js").css("opacity", "0"), $(".Menu--main").css("visibility", "visible"), $(".Menu--main").css("opacity", "1")),
-                                a > 500 && $("#Container--1").addClass("animated fadeIn"),
-                                a > 1150 && $("#Container--2").addClass("animated fadeIn"),
-                                a > 1826 && $("#Container--3").addClass("animated fadeIn"),
-                                a > 2487 && $("#Container--4").addClass("animated fadeIn"),
-                                a > 3250 &&
+                                a > 200 && $("#Container--1").addClass("animated fadeIn"),
+                                a > 1000 && $("#Container--2").addClass("animated fadeIn"),
+                                a > 1650 && $("#Container--3").addClass("animated fadeIn"),
+                                a > 2200 && $("#Container--4").addClass("animated fadeIn"),
+                                a > 2800 &&
                                 ($("#Container--5").addClass("animated fadeIn"),
                                     $("#dan").addClass("animated fadeIn"),
                                     $("#babylon").addClass("animated fadeIn")
@@ -55,7 +55,7 @@ function scrollToPortfolio() {
                                     // $("#uni").addClass("animated fadeIn"),
                                     // $("#recharge").addClass("animated fadeIn")
                                 ),
-                                a > 4300 && $("#Container--6").addClass("animated fadeIn"))
+                                a > 3900 && $("#Container--6").addClass("animated fadeIn"))
                             : $("*").css("opacity", "1");
                     });
             }
