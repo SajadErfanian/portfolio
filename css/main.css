@@ -181,6 +181,7 @@ p {
     margin: 0;
     width: 40%;
     padding-right: 40px;
+    height: min-content;
 }
 
 .skills-w .Container-flex.u-justify-start {
@@ -915,6 +916,10 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
+    .Container-flex.u-marginT50.mb30 {
+        flex-direction: column;
+    }
+
     .About .u-width60 {
         width: 100%;
     }
@@ -1029,6 +1034,11 @@ ul {
 }
 
 @media screen and (max-width: 769px) {
+    .u-width40.u-marginAuto img {
+        max-width: 440px;
+        ;
+    }
+
     .Container.Container--main::after {
         display: none;
     }
@@ -1648,4 +1658,8 @@ ul {
 .lh300 {
     color: #888;
     font-weight: 300;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
 }
