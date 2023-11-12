@@ -488,10 +488,20 @@ nav .Menu-item a {
     margin-right: 10px;
 }
 
-.Container--main {
-    height: 450px;
-    /* background: url(../images/home/sajad-7.jpg) no-repeat right center; */
-    background-size: auto;
+.Container.Container--main {
+    position: relative;
+    background-color: #eeeeee;
+}
+
+.Container.Container--main::after {
+    content: "";
+    position: absolute;
+    right: 4%;
+    top: 390px;
+    height: -webkit-fill-available;
+    width: 50%;
+    background: url(../images/Group157.png) no-repeat right center;
+    background-size: contain;
 }
 
 .Container--project {
@@ -713,6 +723,10 @@ ul {
     padding: 10px;
 }
 
+.Container--main {
+    height: 900px;
+}
+
 @media screen and (min-width: 1520px) {
     .Container--main {
         height: 900px;
@@ -733,7 +747,7 @@ ul {
 
 @media screen and (min-width: 1900px) {
     .Container--main {
-        height: 1100px;
+        height: 900px;
     }
 }
 
@@ -901,8 +915,24 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
+    .Container.Container--main::after {
+        content: "";
+        position: absolute;
+        right: 4%;
+        top: 308px;
+        height: 247px;
+        width: 50%;
+        background: url(../images/Group157.png) no-repeat right center;
+        background-size: contain;
+    }
+
     .Container--main {
         height: 550px;
+    }
+
+    .Container.Container--main::after {
+        top: unset;
+        bottom: 0;
     }
 
     .Container--main h1 {
@@ -995,6 +1025,9 @@ ul {
 }
 
 @media screen and (max-width: 769px) {
+    .Container.Container--main::after {
+        display: none;
+    }
 
     /* .Container--about h2,
     .Container--contact h2,
