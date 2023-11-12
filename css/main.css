@@ -1640,3 +1640,8 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
     background: #1f1f1f
 }
+
+.lh300 {
+    color: #888;
+    font-weight: 300;
+}
