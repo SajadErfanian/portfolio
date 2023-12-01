@@ -1724,3 +1724,7 @@ ul {
     -ms-transform: scaleY(0.1);
     transform: scaleY(0.1);
 }
+
+.fh-32 {
+    font-size: 32px;
+}
