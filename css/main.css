@@ -601,6 +601,10 @@ ul {
     padding-bottom: 97.58%;
 }
 
+#Container-pic--37 img {
+    max-height: 403px;
+}
+
 #dan,
 .dan {
     background: url(../images/home/dss.png) no-repeat center center;
