@@ -743,6 +743,7 @@ ul {
 
 .Container--main {
     height: 900px;
+    opacity: 1 !important;
 }
 
 @media screen and (min-width: 1520px) {
@@ -919,7 +920,7 @@ ul {
     }
 
     .Button-lg {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .Container--project .Container-text h3 {
